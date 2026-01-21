@@ -135,7 +135,7 @@ public class StudentServiceImpl implements StudentService {
 		exStudent.setName(student.getName() != null ? student.getName() : exStudent.getName());
 		exStudent.setMobile(student.getMobile() != null ? student.getMobile() : exStudent.getMobile());
 
-		double percentage = (exStudent.getMaths() + exStudent.getScience() + exStudent.getEnglish()) / 3;
+		double percentage = (exStudent.getMaths() + exStudent.getScience() + exStudent.getEnglish()) / 3.0;
 
 		exStudent.setPercentage(percentage);
 
